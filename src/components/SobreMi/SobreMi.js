@@ -10,7 +10,6 @@ import python from "./Assets/python.svg"
 import sass from "./Assets/sass.svg"
 import git from "./Assets/git.svg"
 import me from "./Assets/me.jpeg"
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -40,7 +39,6 @@ const SobreMi = () => {
                             Siempre estoy abierto a desafíos emocionantes y colaboraciones creativas. ¡Estoy ansioso por seguir creciendo y contribuyendo al fascinante mundo del desarrollo web!
                         </p>
                     </div>
-
                 </div>
                 <div className="sobreMi_icons">
                     <Swiper
@@ -96,7 +94,6 @@ const SobreMi = () => {
                             Siempre estoy abierto a desafíos emocionantes y colaboraciones creativas. ¡Estoy ansioso por seguir creciendo y contribuyendo al fascinante mundo del desarrollo web!
                         </p>
                     </div>
-
                 </div>
                 <div className="sobreMi_icons">
                     <Swiper
@@ -152,7 +149,6 @@ const SobreMi = () => {
                             Siempre estoy abierto a desafíos emocionantes y colaboraciones creativas. ¡Estoy ansioso por seguir creciendo y contribuyendo al fascinante mundo del desarrollo web!
                         </p>
                     </div>
-
                 </div>
                 <div className="sobreMi_icons">
                     <Swiper
@@ -209,7 +205,6 @@ const SobreMi = () => {
                             Siempre estoy abierto a desafíos emocionantes y colaboraciones creativas. ¡Estoy ansioso por seguir creciendo y contribuyendo al fascinante mundo del desarrollo web!
                         </p>
                     </div>
-
                 </div>
                 <div className="sobreMi_icons">
                     <Swiper
@@ -245,7 +240,6 @@ const SobreMi = () => {
         )
     }
 
-
     if (window.innerWidth <= 900) {
         return (
             <div className="sobreMi_container" id="sobreMi">
@@ -267,7 +261,6 @@ const SobreMi = () => {
                             Siempre estoy abierto a desafíos emocionantes y colaboraciones creativas. ¡Estoy ansioso por seguir creciendo y contribuyendo al fascinante mundo del desarrollo web!
                         </p>
                     </div>
-
                 </div>
                 <div className="sobreMi_icons">
                     <Swiper
@@ -324,7 +317,6 @@ const SobreMi = () => {
                             Siempre estoy abierto a desafíos emocionantes y colaboraciones creativas. ¡Estoy ansioso por seguir creciendo y contribuyendo al fascinante mundo del desarrollo web!
                         </p>
                     </div>
-
                 </div>
                 <div className="sobreMi_icons">
                     <Swiper
