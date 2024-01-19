@@ -1,0 +1,67 @@
+{
+    "Proyecto1": {
+        "id": "CreciendoEnTuHistoria",
+        "imagen": "./Assets/CreciendoEnTuHistoria.png",
+        "title": "Creciendo En Tu Historia",
+        "date": "11/2022 - 01/2023",
+        "link": "https://creciendo-en-tu-historia.netlify.app/",
+        "aptitudes": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    "Proyecto2": {
+        "id": "Viajaz",
+        "imagen": "./Assets/Viajaz.png",
+        "title": "Viajaz",
+        "date": "01/2023 - 02/2023",
+        "link": "https://viajaz.tur.ar/",
+        "aptitudes": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    "Proyecto3": {
+        "id": "FacuTrainer",
+        "imagen": "./Assets/FacuTrainer.png",
+        "title": "Facu Trainer",
+        "date": "02/2023 - 05/2023",
+        "link": "https://facutrainerfit.com.ar/",
+        "aptitudes": [
+            "HTML",
+            "CSS",
+            "React.js"
+        ]
+    },
+    "Proyecto4": {
+        "id": "NaranjaErp",
+        "imagen": "./Assets/NaranjaErp.png",
+        "title": "Naranja Erp",
+        "date": "05/2023 - 07/2023",
+        "link": "https://naranja-erp.netlify.app/",
+        "aptitudes": [
+            "HTML",
+            "CSS",
+            "React.js"
+        ]
+    },
+    "Proyecto5": {
+        "id": "ProyectoBack",
+        "imagen": "./Assets/ProyectoBack.png",
+        "title": "Proyecto BackEnd",
+        "date": "06/2023 - 12/2023",
+        "link": "https://e-commerce-backendcoder.up.railway.app/",
+        "aptitudes": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "NODE.JS",
+            "Express.js",
+            "Socket.io",
+            "MongoDb",
+            "Handlebars"
+        ]
+    }
+}

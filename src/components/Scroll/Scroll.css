@@ -1,0 +1,9 @@
+.scroll{
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    height: 5px;
+    background-color: #00ddffbb;
+    border-radius: 4px;
+    transition: all .3s linear;
+}

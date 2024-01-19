@@ -1,0 +1,72 @@
+.social {
+    position: absolute;
+    bottom: 0rem;
+    left: .5rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.linkedin,
+.github,
+.instagram {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 0;
+}
+
+.linkedin:hover,
+.github:hover,
+.instagram:hover {
+    filter: drop-shadow(1px 1px 8px #00ddffe3);
+}
+
+.stick {
+    background-color: #00ddffe3;
+    height: 15px;
+    width: 2px;
+    margin: auto;
+}
+
+.social .stick:last-of-type {
+    height: 50px;
+}
+
+@media (max-width: 680px) {
+    .social {
+        bottom: 1.5rem;
+        left: 1.2rem;
+        flex-direction: row;
+    }
+
+    .stick {
+        width: 30px;
+        height: 2px;
+    }
+    .social .stick:last-of-type {
+        width: 30px;
+        height: 2px;
+    }
+
+    .verticalStick{
+        background-color: #00ddffe3;
+        position: absolute;
+        bottom: 0;
+        left: 2.2rem;
+        width: 2px;
+        height: 30px;
+    }
+
+    .linkedin, .github, .instagram {
+        margin: 3px -3px;
+    }
+}

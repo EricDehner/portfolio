@@ -1,0 +1,61 @@
+.cv {
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.cv_item {
+    display: block;
+    background-color: rgb(16, 16, 16);
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    border: 1px solid #00ddffbb;
+    transition: all .1s ease-in-out;
+}
+
+.cv_item:hover {
+    filter: drop-shadow(1px 1px 8px #00ddff86);
+
+}
+
+.material-symbols-outlined--up {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    color: #00ddffbb;
+}
+
+@media (max-width: 425px) {
+    .cv_item {
+        width: 45px;
+        height: 45px;
+        border-radius: 12px 0 0 12px;
+        border: 1px solid #00ddffbb;
+    }
+
+    .cv {
+        position: fixed;
+        right: -5px;
+        bottom: 54px;
+        z-index: 11;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,33 @@
+.proyects_title {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ededed;
+    font-family: Source Sans Pro;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .12em;
+    line-height: 128%;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem 0 3rem;
+}
+
+.proyects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    max-width: 1318px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+
+
+
+@media (max-width: 425px) {
+    .proyects_title {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,121 @@
+.navBar {
+    position: fixed;
+    top: 0;
+    background-color: rgb(16, 16, 16);
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.595));
+    justify-content: space-between;
+    width: 100%;
+    height: 62px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    z-index: 10;
+    grid-auto-flow: row;
+    grid-template-areas: "navBar_brand navBar_section"
+        "navBar_scroll navBar_scroll";
+}
+
+.navBar_section {
+    grid-area: navBar_section;
+    width: 100%;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navBar_section-items {
+    list-style: none;
+}
+
+.navBar_section-items--item {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ededed;
+    cursor: pointer;
+    font-family: Source Sans Pro;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .12em;
+    line-height: 128%;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    padding: 0 2rem;
+}
+
+.navBar_scroll {
+    grid-area: navBar_scroll;
+}
+
+.navBar_brand {
+    grid-area: navBar_brand;
+    align-items: center;
+    display: flex;
+    margin-left: 3rem;
+    height: 62px;
+}
+
+.navBar_brand-brand {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ededed;
+    cursor: pointer;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .12em;
+    line-height: 128%;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+
+
+
+@media (max-width: 960px) {
+    .navBar_brand {
+        margin-left: 2rem;
+        height: 62px;
+    }
+
+    .navBar_brand-brand {
+        font-size: 28px;
+    }
+
+    .navBar_section-items--item {
+        color: #ededed;
+        cursor: pointer;
+        font-family: Source Sans Pro;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: .12em;
+        line-height: 128%;
+        text-align: center;
+        text-decoration: none;
+        transition: all .2s ease-in-out;
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .navBar_brand {
+        margin-left: 1rem;
+    }
+
+    .navBar_brand-brand {
+        font-family: Source Sans Pro;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: .12em;
+        line-height: 128%;
+        text-align: center;
+        text-decoration: none;
+        transition: all .2s ease-in-out;
+    }
+}

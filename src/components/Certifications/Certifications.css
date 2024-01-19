@@ -1,0 +1,133 @@
+.certifications_container {
+    position: relative;
+    padding: 8rem 0;
+    overflow: hidden;
+}
+
+.certifications_title {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ededed;
+    font-family: Source Sans Pro;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .12em;
+    line-height: 128%;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    padding: 0 2rem;
+    background-color: rgb(16, 16, 16);
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+    background-color: rgb(16, 16, 16);
+    padding: 2rem 4rem 4rem !important;
+}
+
+.certification {
+    width: 700px;
+    aspect-ratio: 7/5;
+    z-index: 2;
+    transition: all .5s ease-in-out;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #ededed !important;
+}
+
+.topWave_container {
+    position: relative;
+}
+
+.topWave {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    filter: drop-shadow(0 -2px 16px #00ddffbb);
+}
+
+.bottomWave_container {
+    position: relative;
+}
+
+.bottomWave {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    filter: drop-shadow(0 2px 16px #00ddffbb);
+}
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 1rem !important;
+    text-align: center;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+}
+
+.swiper-pagination-bullet {
+    background: rgb(255, 255, 255) !important;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #ededed !important;
+}
+
+.swiper-backface-hidden .swiper-slide {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1600px) {
+    .certification {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .certification {
+        width: 75%;
+    }
+}
+@media (max-width: 425px) {
+    .certifications_title {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #ededed;
+        font-family: Source Sans Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: .12em;
+        line-height: 128%;
+        text-align: center;
+        text-decoration: none;
+        transition: all .2s ease-in-out;
+        background-color: rgb(16, 16, 16);
+    }
+
+    .swiper {
+        padding: 1rem 4rem 3rem !important;
+    }
+
+    .certification {
+        width: 90%;
+    }
+
+    .certifications_container {
+        padding: 7rem 0;
+    }
+}
