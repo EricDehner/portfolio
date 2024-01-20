@@ -16,7 +16,7 @@ const Hero = () => {
                         DESCARGAR CV
                     </a>
                 </div>
-                <motion.div className="hero_img-container" initial={{ x: 10 }} animate={{ x: 0 }} transition={{ duration: 4, delay: 0.2 }}>
+                <motion.div className="hero_img-container" initial={{ x: 10 }} animate={{ x: 0 }} transition={{ duration: 4, delay: 0 }}>
                     <img className="hero_img-back" draggable={false} src={background} alt="Me" />
                     <img className="hero_img" draggable={false} src={me} alt="Me" />
                 </motion.div>
