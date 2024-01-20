@@ -41,23 +41,7 @@ const SobreMi = () => {
                     </div>
                 </div>
                 <div className="sobreMi_icons">
-                    <Swiper
-                        slidesPerView={2}
-                        spaceBetween={50}
-                        centeredSlides={true}
-                        loop={true}
-                        autoplay={{
-                            delay: 1000,
-                            disableOnInteraction: false,
-                        }}
-                        pagination={{
-                            clickable: false,
-                        }}
-                        navigation={false}
-                        allowTouchMove={false}
-                        modules={[Autoplay, Pagination, Navigation]}
-                        className="mySwiper"
-                    >
+                    <Swiper slidesPerView={2} spaceBetween={50} centeredSlides={true} loop={true} autoplay={{ delay: 1000, disableOnInteraction: false, }} pagination={{ clickable: false, }} navigation={false} allowTouchMove={false} modules={[Autoplay, Pagination, Navigation]} className="mySwiper">
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={css} alt="CSS" /></SwiperSlide>
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={js} alt="JavaScript" /></SwiperSlide>
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={git} alt="Git" /></SwiperSlide>
@@ -96,23 +80,7 @@ const SobreMi = () => {
                     </div>
                 </div>
                 <div className="sobreMi_icons">
-                    <Swiper
-                        slidesPerView={3}
-                        spaceBetween={100}
-                        centeredSlides={true}
-                        loop={true}
-                        autoplay={{
-                            delay: 1000,
-                            disableOnInteraction: false,
-                        }}
-                        pagination={{
-                            clickable: false,
-                        }}
-                        navigation={false}
-                        allowTouchMove={false}
-                        modules={[Autoplay, Pagination, Navigation]}
-                        className="mySwiper"
-                    >
+                    <Swiper slidesPerView={3} spaceBetween={100} centeredSlides={true} loop={true} autoplay={{ delay: 1000, disableOnInteraction: false, }} pagination={{ clickable: false, }} navigation={false} allowTouchMove={false} modules={[Autoplay, Pagination, Navigation]} className="mySwiper">
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={css} alt="CSS" /></SwiperSlide>
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={js} alt="JavaScript" /></SwiperSlide>
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={git} alt="Git" /></SwiperSlide>
@@ -151,23 +119,7 @@ const SobreMi = () => {
                     </div>
                 </div>
                 <div className="sobreMi_icons">
-                    <Swiper
-                        slidesPerView={4}
-                        spaceBetween={0}
-                        centeredSlides={true}
-                        loop={true}
-                        autoplay={{
-                            delay: 1000,
-                            disableOnInteraction: false,
-                        }}
-                        pagination={{
-                            clickable: false,
-                        }}
-                        navigation={false}
-                        allowTouchMove={false}
-                        modules={[Autoplay, Pagination, Navigation]}
-                        className="mySwiper"
-                    >
+                    <Swiper slidesPerView={4} spaceBetween={0} centeredSlides={true} loop={true} autoplay={{ delay: 1000, disableOnInteraction: false, }} pagination={{ clickable: false, }} navigation={false} allowTouchMove={false} modules={[Autoplay, Pagination, Navigation]} className="mySwiper">
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={js} alt="JavaScript" /></SwiperSlide>
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={git} alt="Git" /></SwiperSlide>
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={sass} alt="Sass" /></SwiperSlide>
@@ -207,23 +159,7 @@ const SobreMi = () => {
                     </div>
                 </div>
                 <div className="sobreMi_icons">
-                    <Swiper
-                        slidesPerView={4}
-                        spaceBetween={0}
-                        centeredSlides={true}
-                        loop={true}
-                        autoplay={{
-                            delay: 1500,
-                            disableOnInteraction: false,
-                        }}
-                        pagination={{
-                            clickable: false,
-                        }}
-                        navigation={false}
-                        allowTouchMove={false}
-                        modules={[Autoplay, Pagination, Navigation]}
-                        className="mySwiper"
-                    >
+                    <Swiper slidesPerView={4} spaceBetween={0} centeredSlides={true} loop={true} autoplay={{ delay: 1500, disableOnInteraction: false, }} pagination={{ clickable: false, }} navigation={false} allowTouchMove={false} modules={[Autoplay, Pagination, Navigation]} className="mySwiper">
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={js} alt="JavaScript" /></SwiperSlide>
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={git} alt="Git" /></SwiperSlide>
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={sass} alt="Sass" /></SwiperSlide>
@@ -263,23 +199,7 @@ const SobreMi = () => {
                     </div>
                 </div>
                 <div className="sobreMi_icons">
-                    <Swiper
-                        slidesPerView={5}
-                        spaceBetween={80}
-                        centeredSlides={true}
-                        loop={true}
-                        autoplay={{
-                            delay: 1500,
-                            disableOnInteraction: false,
-                        }}
-                        pagination={{
-                            clickable: false,
-                        }}
-                        navigation={false}
-                        allowTouchMove={false}
-                        modules={[Autoplay, Pagination, Navigation]}
-                        className="mySwiper"
-                    >
+                    <Swiper slidesPerView={5} spaceBetween={80} centeredSlides={true} loop={true} autoplay={{ delay: 1500, disableOnInteraction: false, }} pagination={{ clickable: false, }} navigation={false} allowTouchMove={false} modules={[Autoplay, Pagination, Navigation]} className="mySwiper">
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={js} alt="JavaScript" /></SwiperSlide>
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={git} alt="Git" /></SwiperSlide>
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={sass} alt="Sass" /></SwiperSlide>
@@ -319,23 +239,7 @@ const SobreMi = () => {
                     </div>
                 </div>
                 <div className="sobreMi_icons">
-                    <Swiper
-                        slidesPerView={6}
-                        spaceBetween={0}
-                        centeredSlides={true}
-                        loop={true}
-                        autoplay={{
-                            delay: 1500,
-                            disableOnInteraction: false,
-                        }}
-                        pagination={{
-                            clickable: false,
-                        }}
-                        navigation={false}
-                        allowTouchMove={false}
-                        modules={[Autoplay, Pagination, Navigation]}
-                        className="mySwiper"
-                    >
+                    <Swiper slidesPerView={6} spaceBetween={0} centeredSlides={true} loop={true} autoplay={{ delay: 1500, disableOnInteraction: false, }} pagination={{ clickable: false, }} navigation={false} allowTouchMove={false} modules={[Autoplay, Pagination, Navigation]} className="mySwiper">
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={git} alt="Git" /></SwiperSlide>
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={sass} alt="Sass" /></SwiperSlide>
                         <SwiperSlide><img className="sobreMi_icons-icon" draggable={false} src={react} alt="React.Js" /></SwiperSlide>

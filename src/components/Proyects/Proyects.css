@@ -23,11 +23,9 @@
     padding: 0 2rem;
 }
 
-
-
-
 @media (max-width: 425px) {
     .proyects_title {
         font-size: 20px;
+        margin: 0rem 0 2rem;
     }
 }

@@ -2,7 +2,6 @@ import "./Footer.css"
 import Social from "../Social/Social"
 
 const Footer = ({ isVisible }) => {
-
     return (
         <section className="footer_container">
             <Social isVisible={isVisible}/>

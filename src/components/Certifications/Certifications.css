@@ -98,6 +98,8 @@
     width: max-content;
 }
 
+
+
 @media (max-width: 1600px) {
     .certification {
         width: 90%;
@@ -109,6 +111,7 @@
         width: 75%;
     }
 }
+
 @media (max-width: 425px) {
     .certifications_title {
         font-family: 'Source Sans Pro', sans-serif;

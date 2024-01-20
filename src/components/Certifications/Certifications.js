@@ -20,13 +20,7 @@ const Certifications = () => {
                 </div>
                 <h2 className="certifications_title">CERTIFICACIONES</h2>
                 <div className="certifications">
-                    <Swiper slidesPerView={1} spaceBetween={70} loop={true} pagination={{
-                        clickable: true,
-                    }}
-                        navigation={true}
-                        modules={[Pagination, Navigation]}
-                        className="mySwiper"
-                    >
+                    <Swiper slidesPerView={1} spaceBetween={70} loop={true} pagination={{ clickable: true, }} navigation={true} modules={[Pagination, Navigation]} className="mySwiper">
                         <SwiperSlide ><a href="https://www.coderhouse.com/certificados/62cb9cd49689cc00240c544d" target="_blank" rel="noreferrer"><img className="certification" src={certification1} alt="Certification" /></a></SwiperSlide>
                         <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6331c8ea4cec60000ee7452f" target="_blank" rel="noreferrer"><img className="certification" src={certification2} alt="Certification" /></a></SwiperSlide>
                         <SwiperSlide ><a href="https://www.coderhouse.com/certificados/637860435e7c43000fb8ba31" target="_blank" rel="noreferrer"><img className="certification" src={certification3} alt="Certification" /></a></SwiperSlide>
@@ -48,13 +42,7 @@ const Certifications = () => {
             </div>
             <h2 className="certifications_title">CERTIFICACIONES</h2>
             <div className="certifications">
-                <Swiper slidesPerView={1} spaceBetween={30} loop={true} pagination={{
-                    clickable: true,
-                }}
-                    navigation={true}
-                    modules={[Pagination, Navigation]}
-                    className="mySwiper"
-                >
+                <Swiper slidesPerView={1} spaceBetween={30} loop={true} pagination={{ clickable: true, }} navigation={true} modules={[Pagination, Navigation]} className="mySwiper">
                     <SwiperSlide ><a href="https://www.coderhouse.com/certificados/62cb9cd49689cc00240c544d" target="_blank" rel="noreferrer"><img className="certification" src={certification1} alt="Certification" /></a></SwiperSlide>
                     <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6331c8ea4cec60000ee7452f" target="_blank" rel="noreferrer"><img className="certification" src={certification2} alt="Certification" /></a></SwiperSlide>
                     <SwiperSlide ><a href="https://www.coderhouse.com/certificados/637860435e7c43000fb8ba31" target="_blank" rel="noreferrer"><img className="certification" src={certification3} alt="Certification" /></a></SwiperSlide>
@@ -75,13 +63,7 @@ const Certifications = () => {
             </div>
             <h2 className="certifications_title">CERTIFICACIONES</h2>
             <div className="certifications">
-                <Swiper slidesPerView={2} spaceBetween={60} loop={true} pagination={{
-                    clickable: true,
-                }}
-                    navigation={true}
-                    modules={[Pagination, Navigation]}
-                    className="mySwiper"
-                >
+                <Swiper slidesPerView={2} spaceBetween={60} loop={true} pagination={{ clickable: true, }} navigation={true} modules={[Pagination, Navigation]} className="mySwiper">
                     <SwiperSlide ><a href="https://www.coderhouse.com/certificados/62cb9cd49689cc00240c544d" target="_blank" rel="noreferrer"><img className="certification" src={certification1} alt="Certification" /></a></SwiperSlide>
                     <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6331c8ea4cec60000ee7452f" target="_blank" rel="noreferrer"><img className="certification" src={certification2} alt="Certification" /></a></SwiperSlide>
                     <SwiperSlide ><a href="https://www.coderhouse.com/certificados/637860435e7c43000fb8ba31" target="_blank" rel="noreferrer"><img className="certification" src={certification3} alt="Certification" /></a></SwiperSlide>
@@ -103,13 +85,7 @@ const Certifications = () => {
             </div>
             <h2 className="certifications_title">CERTIFICACIONES</h2>
             <div className="certifications">
-                <Swiper slidesPerView={2} spaceBetween={60} loop={true} pagination={{
-                    clickable: true,
-                }}
-                    navigation={true}
-                    modules={[Pagination, Navigation]}
-                    className="mySwiper"
-                >
+                <Swiper slidesPerView={2} spaceBetween={60} loop={true} pagination={{ clickable: true, }} navigation={true} modules={[Pagination, Navigation]} className="mySwiper">
                     <SwiperSlide ><a href="https://www.coderhouse.com/certificados/62cb9cd49689cc00240c544d" target="_blank" rel="noreferrer"><img className="certification" src={certification1} alt="Certification" /></a></SwiperSlide>
                     <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6331c8ea4cec60000ee7452f" target="_blank" rel="noreferrer"><img className="certification" src={certification2} alt="Certification" /></a></SwiperSlide>
                     <SwiperSlide ><a href="https://www.coderhouse.com/certificados/637860435e7c43000fb8ba31" target="_blank" rel="noreferrer"><img className="certification" src={certification3} alt="Certification" /></a></SwiperSlide>
