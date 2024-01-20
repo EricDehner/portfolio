@@ -17,20 +17,32 @@ const FondoHero = () => {
                 };
 
                 this.circleContainers = [];
+                this.isScrolling = false; // Nueva variable para controlar el scroll
 
+                // Manejo de eventos de redimensionamiento y scroll
                 window.addEventListener('resize', () => this.resizeCanvas(), false);
+                window.addEventListener('scroll', () => {
+                    this.isScrolling = true;
+                    // Lógica adicional según tus necesidades
+                });
+                window.addEventListener('scroll', () => {
+                    this.isScrolling = false;
+                });
             }
 
             resizeCanvas() {
-                this.width = this.canvas.width = window.innerWidth;
-                this.height = this.canvas.height = window.innerHeight;
-                this.center = {
-                    x: this.width / 2,
-                    y: this.height / 2
-                };
+                clearTimeout(this.resizeTimer);
+                this.resizeTimer = setTimeout(() => {
+                    this.width = this.canvas.width = window.innerWidth;
+                    this.height = this.canvas.height = window.innerHeight;
+                    this.center = {
+                        x: this.width / 2,
+                        y: this.height / 2
+                    };
 
-                this.circleContainers = [];
-                this.initializeCircleContainers();
+                    this.circleContainers = [];
+                    this.initializeCircleContainers();
+                }, 200);
             }
 
             initializeCircleContainers() {
@@ -44,8 +56,10 @@ const FondoHero = () => {
             }
 
             update() {
-                for (let i = 0; i < this.circleContainers.length; i++) {
-                    this.circleContainers[i].update();
+                if (!this.isScrolling) { // Verificar si se está haciendo scroll
+                    for (let i = 0; i < this.circleContainers.length; i++) {
+                        this.circleContainers[i].update();
+                    }
                 }
             }
 
@@ -60,10 +74,10 @@ const FondoHero = () => {
             loop() {
                 this.update();
                 this.render();
-
                 window.requestAnimationFrame(() => this.loop());
             }
         }
+
 
         class CircleContainer {
             constructor(context, x, y) {
@@ -72,7 +86,7 @@ const FondoHero = () => {
                 this.numberOfCircles = 10;
                 this.circles = [];
                 this.baseRadius = 20;
-                this.bounceRadius =150;
+                this.bounceRadius = 150;
                 this.singleSlice = TWO_PI / this.numberOfCircles;
             }
 
@@ -136,7 +150,6 @@ const FondoHero = () => {
         <div className="fondoHero">
             <canvas id="canvas">Your browser doesn't support canvas</canvas>
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-                {/* ... (copia el contenido SVG aquí) */}
             </svg>
         </div>
     );
