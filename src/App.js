@@ -10,12 +10,14 @@ import Contact from './components/Contacto/Contacto';
 import Hero from './components/Hero/Hero';
 import useDeviceSize from "./components/Resize/Resize";
 import Menu from './components/Menu/Menu';
+import Loading from './components/Loading/Loading';
 
 function App() {
   const [isVisibleBtn, setIsVisibleBtn] = useState(false);
   const [isVisibleIcons, setIsVisibleIcons] = useState(true);
   const [isMobile, setIsMobile] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const arrayWidth = useDeviceSize();
   const width = arrayWidth[0];
 
@@ -28,12 +30,12 @@ function App() {
   }, [width, isMobile]);
 
   useEffect(() => {
-    if (isMenuOpen) {
+    if (isMenuOpen || isLoading) {
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "auto";
     }
-  }, [isMenuOpen]);
+  }, [isMenuOpen, isLoading]);
 
   useEffect(() => {
     const scrollHandler = () => {
@@ -53,9 +55,16 @@ function App() {
     };
   }, []);
 
+  const handleLoadingComplete = () => {
+    setIsLoading(false);
+  };
+
   return (
     <div id="top" className="App">
-      <div style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
+      <div style={{ position: 'fixed', top: 0, width: '100%', zIndex: 901 }}>
+        {isLoading && <Loading onComplete={handleLoadingComplete} />}
+      </div>
+      <div style={{ position: 'fixed', top: 0, width: '100%', zIndex: 900 }}>
         <Nav setIsMenuOpen={setIsMenuOpen} />
         {isMenuOpen && <Menu setMenuOpen={setIsMenuOpen} onCloseClick={() => setIsMenuOpen(false)} />}
       </div>

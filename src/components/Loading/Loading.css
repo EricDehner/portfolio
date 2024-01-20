@@ -1,0 +1,57 @@
+.loading {
+    height: 100dvh;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 901;
+    position: absolute;
+}
+
+.loading_icon {
+    height: 150px;
+    width: 150px;
+    stroke: #00ddfff1;
+    fill-opacity: 0;
+    stroke-width: 3px;
+    stroke-dasharray: 4500;
+    animation: draw 6s ease;
+}
+
+.loading_icon:first-child {
+    position: relative;
+    left: 1rem;
+}
+
+.loading_icon:last-child {
+    position: relative;
+    right: 1rem;
+}
+
+@keyframes draw {
+    0% {
+        stroke-dashoffset: 4500;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .loading_icon {
+        height: 100px;
+        width: 100px;
+    }
+
+    .loading_icon:first-child {
+        position: relative;
+        left: .5rem;
+    }
+
+    .loading_icon:last-child {
+        position: relative;
+        right: .5rem;
+    }
+}

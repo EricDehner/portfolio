@@ -12,7 +12,9 @@ const Menu = ({ setMenuOpen, onCloseClick }) => {
     return (
         <AnimatePresence>
             <motion.section className="menu" initial={{ opacity: 0, x: "100%" }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: "100%", transition: { duration: 0.3, delay: 0 } }} transition={{ duration: 0.3, delay: 0 }}>
-                <img className="menu_logo" draggable={false} src={Logo} alt="Logo" />
+                <Link to="top" spy={true} smooth={true} offset={-90} duration={700} onClick={handleLinkClick}>
+                    <img className="menu_logo" draggable={false} src={Logo} alt="Logo" />
+                </Link>
                 <span
                     className="material-symbols-outlined-closeMenu"
                     onClick={() => { onCloseClick(); }}>
