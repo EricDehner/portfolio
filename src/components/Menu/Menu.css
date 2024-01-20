@@ -1,0 +1,86 @@
+.menu {
+    width: 100%;
+    height: 100dvh;
+    background-color: #101010;
+    z-index: 100;
+    position: relative;
+}
+
+.menu_logo {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 40px;
+    height: 35px;
+}
+
+.menu_section {
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    margin: auto;
+    height: max-content;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.menu_footer-copyright {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ededed8e;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .12em;
+    line-height: 128%;
+    text-decoration: none;
+    padding-right: .3rem;
+}
+
+.menu_footer a {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ededed8e;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .12em;
+    line-height: 128%;
+    text-decoration: none;
+}
+
+.material-symbols-outlined-closeMenu {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #ededed;
+}

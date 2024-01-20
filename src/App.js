@@ -9,11 +9,13 @@ import Footer from './components/Footer/Footer';
 import Contact from './components/Contacto/Contacto';
 import Hero from './components/Hero/Hero';
 import useDeviceSize from "./components/Resize/Resize";
+import Menu from './components/Menu/Menu';
 
 function App() {
   const [isVisibleBtn, setIsVisibleBtn] = useState(false);
   const [isVisibleIcons, setIsVisibleIcons] = useState(true);
   const [isMobile, setIsMobile] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const arrayWidth = useDeviceSize();
   const width = arrayWidth[0];
 
@@ -26,26 +28,37 @@ function App() {
   }, [width, isMobile]);
 
   useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [isMenuOpen]);
+
+  useEffect(() => {
     const scrollHandler = () => {
       const middleScreen = window.innerHeight / 2;
       const isScrollPastWindowHeight = window.scrollY > middleScreen;
       setIsVisibleBtn(isScrollPastWindowHeight);
 
       const fullHeight = document.body.scrollHeight - window.innerHeight;
-      const isScrollAtMax = window.scrollY >= (fullHeight - 28);
+      const isScrollAtMax = window.scrollY >= fullHeight - 28;
       setIsVisibleIcons(isScrollAtMax);
     };
 
-    window.addEventListener('scroll', scrollHandler);
+    window.addEventListener("scroll", scrollHandler);
 
     return () => {
-      window.removeEventListener('scroll', scrollHandler);
+      window.removeEventListener("scroll", scrollHandler);
     };
   }, []);
 
   return (
     <div id="top" className="App">
-      <Nav />
+      <div style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
+        <Nav setIsMenuOpen={setIsMenuOpen} />
+        {isMenuOpen && <Menu setMenuOpen={setIsMenuOpen} onCloseClick={() => setIsMenuOpen(false)} />}
+      </div>
       <Hero />
       <AboutMe />
       <Proyects />

@@ -92,6 +92,12 @@
     justify-content: center;
 }
 
+.swiper-slide a{
+    display: flex;
+    justify-content: center;
+    width: max-content;
+}
+
 @media (max-width: 1600px) {
     .certification {
         width: 90%;

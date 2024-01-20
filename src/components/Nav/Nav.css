@@ -102,6 +102,38 @@
     }
 }
 
+@media (max-width: 768px) {
+    .navBar {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu_btn {
+        border: 0;
+        width: max-content;
+        height: max-content;
+        margin-right: 1rem;
+        background-color: transparent;
+    }
+
+    .material-symbols-outlined-menu {
+        font-family: 'Material Symbols Outlined';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 32px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        color: #ededed;
+    }
+}
+
 @media (max-width: 425px) {
     .navBar_brand {
         margin-left: 1rem;
@@ -118,4 +150,6 @@
         text-decoration: none;
         transition: all .2s ease-in-out;
     }
+
+
 }

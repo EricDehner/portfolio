@@ -27,12 +27,13 @@ const Certifications = () => {
                         modules={[Pagination, Navigation]}
                         className="mySwiper"
                     >
-                        <SwiperSlide ><img className="certification" src={certification1} alt="Certification" /></SwiperSlide>
-                        <SwiperSlide ><img className="certification" src={certification2} alt="Certification" /></SwiperSlide>
-                        <SwiperSlide ><img className="certification" src={certification3} alt="Certification" /></SwiperSlide>
-                        <SwiperSlide ><img className="certification" src={certification4} alt="Certification" /></SwiperSlide>
-                        <SwiperSlide ><img className="certification" src={certification5} alt="Certification" /></SwiperSlide>
-                        <SwiperSlide ><img className="certification" src={certification6} alt="Certification" /></SwiperSlide>
+                        <SwiperSlide ><a href="https://www.coderhouse.com/certificados/62cb9cd49689cc00240c544d" target="_blank" rel="noreferrer"><img className="certification" src={certification1} alt="Certification" /></a></SwiperSlide>
+                        <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6331c8ea4cec60000ee7452f" target="_blank" rel="noreferrer"><img className="certification" src={certification2} alt="Certification" /></a></SwiperSlide>
+                        <SwiperSlide ><a href="https://www.coderhouse.com/certificados/637860435e7c43000fb8ba31" target="_blank" rel="noreferrer"><img className="certification" src={certification3} alt="Certification" /></a></SwiperSlide>
+                        <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6591b7f56793b078ee710009" target="_blank" rel="noreferrer"><img className="certification" src={certification4} alt="Certification" /></a></SwiperSlide>
+                        <SwiperSlide ><a href="https://www.coderhouse.com/certificados/637860435e7c43000fb8ba34" target="_blank" rel="noreferrer"><img className="certification" src={certification5} alt="Certification" /></a></SwiperSlide>
+                        <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6591b7f56793b02e0e710014" target="_blank" rel="noreferrer"><img className="certification" src={certification6} alt="Certification" /></a></SwiperSlide>
+
                     </Swiper>
                 </div>
                 <div className="bottomWave_container">
@@ -54,12 +55,12 @@ const Certifications = () => {
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide ><img className="certification" src={certification1} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification2} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification3} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification4} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification5} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification6} alt="Certification" /></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/62cb9cd49689cc00240c544d" target="_blank" rel="noreferrer"><img className="certification" src={certification1} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6331c8ea4cec60000ee7452f" target="_blank" rel="noreferrer"><img className="certification" src={certification2} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/637860435e7c43000fb8ba31" target="_blank" rel="noreferrer"><img className="certification" src={certification3} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6591b7f56793b078ee710009" target="_blank" rel="noreferrer"><img className="certification" src={certification4} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/637860435e7c43000fb8ba34" target="_blank" rel="noreferrer"><img className="certification" src={certification5} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6591b7f56793b02e0e710014" target="_blank" rel="noreferrer"><img className="certification" src={certification6} alt="Certification" /></a></SwiperSlide>
                 </Swiper>
             </div>
             <div className="bottomWave_container">
@@ -81,12 +82,12 @@ const Certifications = () => {
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide ><img className="certification" src={certification1} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification2} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification3} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification4} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification5} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification6} alt="Certification" /></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/62cb9cd49689cc00240c544d" target="_blank" rel="noreferrer"><img className="certification" src={certification1} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6331c8ea4cec60000ee7452f" target="_blank" rel="noreferrer"><img className="certification" src={certification2} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/637860435e7c43000fb8ba31" target="_blank" rel="noreferrer"><img className="certification" src={certification3} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6591b7f56793b078ee710009" target="_blank" rel="noreferrer"><img className="certification" src={certification4} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/637860435e7c43000fb8ba34" target="_blank" rel="noreferrer"><img className="certification" src={certification5} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6591b7f56793b02e0e710014" target="_blank" rel="noreferrer"><img className="certification" src={certification6} alt="Certification" /></a></SwiperSlide>
                 </Swiper>
             </div>
             <div className="bottomWave_container">
@@ -109,12 +110,12 @@ const Certifications = () => {
                     modules={[Pagination, Navigation]}
                     className="mySwiper"
                 >
-                    <SwiperSlide ><img className="certification" src={certification1} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification2} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification3} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification4} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification5} alt="Certification" /></SwiperSlide>
-                    <SwiperSlide ><img className="certification" src={certification6} alt="Certification" /></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/62cb9cd49689cc00240c544d" target="_blank" rel="noreferrer"><img className="certification" src={certification1} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6331c8ea4cec60000ee7452f" target="_blank" rel="noreferrer"><img className="certification" src={certification2} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/637860435e7c43000fb8ba31" target="_blank" rel="noreferrer"><img className="certification" src={certification3} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6591b7f56793b078ee710009" target="_blank" rel="noreferrer"><img className="certification" src={certification4} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/637860435e7c43000fb8ba34" target="_blank" rel="noreferrer"><img className="certification" src={certification5} alt="Certification" /></a></SwiperSlide>
+                    <SwiperSlide ><a href="https://www.coderhouse.com/certificados/6591b7f56793b02e0e710014" target="_blank" rel="noreferrer"><img className="certification" src={certification6} alt="Certification" /></a></SwiperSlide>
                 </Swiper>
             </div>
             <div className="bottomWave_container">

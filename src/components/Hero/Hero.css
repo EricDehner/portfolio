@@ -43,6 +43,8 @@
     position: absolute;
     top: 0px;
     right: -20px;
+    z-index: -4;
+
 }
 
 .hero_img {
@@ -129,22 +131,10 @@
         margin: .7rem 0 0;
         width: 160px;
         height: 35px;
-        background-color: #101010;
-        border: 1px solid black;
-        border-radius: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-        color: #ededed;
-        font-family: Source Sans Pro;
         font-size: 14px;
-        font-style: normal;
-        font-weight: 600;
-        letter-spacing: .12em;
-        line-height: 128%;
-        text-align: center;
-        filter: drop-shadow(2px 2px 8px #000000);
-        transition: all .1s ease-in-out;
+    }
+
+    .hero_img-container {
+        top: 100px;
     }
 }

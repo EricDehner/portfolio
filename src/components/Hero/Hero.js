@@ -3,6 +3,7 @@ import me from "./Assets/hero.png"
 import background from "./Assets/back.png"
 import FondoHero from "../FondoHero/FondoHero"
 import { Typewriter, Cursor } from "react-simple-typewriter"
+import { motion } from "framer-motion";
 
 const Hero = () => {
     if (window.innerWidth <= 960) {
@@ -15,10 +16,15 @@ const Hero = () => {
                     DESCARGAR CV
                 </a>
             </div>
-            <div className="hero_img-container">
+            <motion.div
+                className="hero_img-container"
+                initial={{ x:10 }}
+                animate={{ x: 0 }}
+                transition={{ duration: 4, delay: 0.2 }}
+                >
                 <img className="hero_img-back" draggable={false} src={background} alt="Me" />
                 <img className="hero_img" draggable={false} src={me} alt="Me" />
-            </div>
+            </motion.div>
         </section>
         )
     }
