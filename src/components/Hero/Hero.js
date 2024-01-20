@@ -40,7 +40,7 @@ const Hero = () => {
             <FondoHero />
             <div className="hero_content">
                 <h1 className="hero_title">ERIC DEHNER, <br /> <span>DESARROLLADOR {typewriterVisible && (<Typewriter words={["FRONTEND", "BACKEND", "FULLSTACK"]} typeSpeed={120} deleteSpeed={80} delaySpeed={700} />)}{typewriterVisible && <Cursor />}</span></h1>
-                <a href="https://drive.usercontent.google.com/download?id=1sDA9imBTZBsmiqfuKb_PhmZLRGENS-o1&export=download&authuser=1&confirm=t&uuid=2ce84eeb-218c-42f7-aa03-5e0eed3254ee&at=APZUnTVVZLNBmllRvpIUbTouADQX:1705610999671" className="hero_cv">
+                <a target="_blank" rel="noreferrer" href="https://drive.usercontent.google.com/download?id=1sDA9imBTZBsmiqfuKb_PhmZLRGENS-o1&export=download&authuser=1&confirm=t&uuid=2ce84eeb-218c-42f7-aa03-5e0eed3254ee&at=APZUnTVVZLNBmllRvpIUbTouADQX:1705610999671" className="hero_cv">
                     DESCARGAR CV
                 </a>
             </div>
