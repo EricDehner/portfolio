@@ -23,7 +23,7 @@ const Hero = () => {
                 <FondoHero />
                 <div className="hero_content">
                     <h1 className="hero_title">ERIC DEHNER, <br /> <span>DESARROLLADOR <br />{typewriterVisible && (<Typewriter words={["FRONTEND", "BACKEND", "FULLSTACK"]} typeSpeed={120} deleteSpeed={80} delaySpeed={700} />)}{typewriterVisible && <Cursor />}</span></h1>
-                    <a target="_blank" rel="noreferrer" href="https://drive.usercontent.google.com/download?id=1sDA9imBTZBsmiqfuKb_PhmZLRGENS-o1&export=download&authuser=1&confirm=t&uuid=2ce84eeb-218c-42f7-aa03-5e0eed3254ee&at=APZUnTVVZLNBmllRvpIUbTouADQX:1705610999671" className="hero_cv">
+                    <a target="_blank" rel="noreferrer" href="https://drive.usercontent.google.com/download?id=1DVU4f29l2F2_GmdNiBM105bUHV9WJQB3&export=download&authuser=1&confirm=t&uuid=17062cc3-143c-42b8-a5ff-7bf74bd41657&at=APZUnTXoxgrZ_4m0n57WUMC1wbvZ:1705951609192" className="hero_cv">
                         DESCARGAR CV
                     </a>
                 </div>
@@ -40,7 +40,7 @@ const Hero = () => {
             <FondoHero />
             <div className="hero_content">
                 <h1 className="hero_title">ERIC DEHNER, <br /> <span>DESARROLLADOR {typewriterVisible && (<Typewriter words={["FRONTEND", "BACKEND", "FULLSTACK"]} typeSpeed={120} deleteSpeed={80} delaySpeed={700} />)}{typewriterVisible && <Cursor />}</span></h1>
-                <a target="_blank" rel="noreferrer" href="https://drive.usercontent.google.com/download?id=1sDA9imBTZBsmiqfuKb_PhmZLRGENS-o1&export=download&authuser=1&confirm=t&uuid=2ce84eeb-218c-42f7-aa03-5e0eed3254ee&at=APZUnTVVZLNBmllRvpIUbTouADQX:1705610999671" className="hero_cv">
+                <a target="_blank" rel="noreferrer" href="https://drive.usercontent.google.com/download?id=1DVU4f29l2F2_GmdNiBM105bUHV9WJQB3&export=download&authuser=1&confirm=t&uuid=17062cc3-143c-42b8-a5ff-7bf74bd41657&at=APZUnTXoxgrZ_4m0n57WUMC1wbvZ:1705951609192" className="hero_cv">
                     DESCARGAR CV
                 </a>
             </div>
